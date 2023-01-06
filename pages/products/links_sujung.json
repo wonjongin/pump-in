@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "세원수중펌프",
+    "url": "http://www.swpump.kr/"
+  },
+  {
+    "id": 2,
+    "name": "현대수중펌프",
+    "url": "http://www.hdspump.co.kr/"
+  },
+  {
+    "id": 3,
+    "name": "지천펌프",
+    "url": "http://www.jcpump.co.kr/"
+  },
+  {
+    "id": 4,
+    "name": "신신수중펌프",
+    "url": "http://www.shinshinpump.co.kr/"
+  },
+  {
+    "id": 5,
+    "name": "지엠펌프",
+    "url": "http://www.gmpump.co.kr/ko/intro/"
+  },
+  {
+    "id": 6,
+    "name": "테티스펌프",
+    "url": ""
+  }
+]

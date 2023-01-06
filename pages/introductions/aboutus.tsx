@@ -1,14 +1,12 @@
+import Footer from "@/components/footer";
+import Header from "@/components/header";
+import Link from "next/link";
+
 export default function AboutUs() {
   return (
     <>
-      저희 홈페이지를 방문하신 고객 여러분 진심으로 환영합니다. 또한 귀사의
-      무궁한 발전과 번영을 기원합니다. 저희 펌프모터시스템 창 은 산업용 펌프,
-      모터를 취급, 생산하는 회사로서 급수부스터펌프시스템을 비롯하여 소방, 순환,
-      오.배수, 볼텍스, 진공 펌프 등을 취급 판매 및 수리하고 있습니다. 항상
-      고객의 입장에서 고객의 마음으로 최선을 다하여 모시겠습니다. 기술자문을
-      필요로 하시는 분들은 어려워 마시고 연락을 주시면 언제든지 신속하게 답변해
-      드리겠습니다. 고객의 만족을 위하여 최선을 다하는 펌프모터시스템 창 이
-      되겠습니다. <strong>펌프모터시스템 창</strong> 임직원 일동
+      <Header />
+      <Footer />
     </>
   );
 }

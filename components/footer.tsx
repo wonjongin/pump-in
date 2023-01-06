@@ -217,7 +217,7 @@ export default function Footer() {
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-5">
               {data.map((col, idx, arr) => {
                 return (
-                  <div>
+                  <div key={idx}>
                     <p className="font-medium text-gray-900 dark:text-white">
                       {col.name}
                     </p>
@@ -229,7 +229,7 @@ export default function Footer() {
                       <ul className="space-y-4 text-sm">
                         {col.sites.map((row, idx, arr) => {
                           return (
-                            <li>
+                            <li key={idx}>
                               <Link
                                 href={row.path}
                                 className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"

@@ -35,7 +35,7 @@ export default function Header() {
                 <ul className="flex flex-wrap items-center gap-6 text-sm">
                   {menus.map((menu, idx, arr) => {
                     return (
-                      <li>
+                      <li key={idx}>
                         <Link
                           className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                           href={menu.path}

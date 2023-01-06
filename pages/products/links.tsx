@@ -11,7 +11,7 @@ export default function AboutUs() {
       <div className="mx-auto">
         {Links.map((link, idx, arr) => {
           return (
-            <div className="mt-4 sm:mt-8 md:inline-block md:mr-4">
+            <div key={idx} className="mt-4 sm:mt-8 md:inline-block md:mr-4">
               <Link
                 href={link.url}
                 className="inline-flex items-center rounded-full bg-indigo-700 px-8 py-3 text-white shadow-lg transition hover:bg-indigo-600 focus:outline-none focus:ring"
@@ -39,7 +39,7 @@ export default function AboutUs() {
         <div className="text-lg">수중펌프 전문</div>
         {Links_sujung.map((link, idx, arr) => {
           return (
-            <div className="mt-4 sm:mt-8 md:inline-block md:mr-4">
+            <div key={idx} className="mt-4 sm:mt-8 md:inline-block md:mr-4">
               <Link
                 href={link.url}
                 className="inline-flex items-center rounded-full bg-indigo-700 px-8 py-3 text-white shadow-lg transition hover:bg-indigo-600 focus:outline-none focus:ring"

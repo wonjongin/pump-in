@@ -1,7 +1,7 @@
 export default function Map() {
   return (
     <>
-      <div
+      {/* <div
         style={{
           font: "normal normal 400 12px/normal dotum, sans-serif",
           width: "640px",
@@ -124,7 +124,7 @@ export default function Map() {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

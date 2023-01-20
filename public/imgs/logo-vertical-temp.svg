@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 301.569 91" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="TextBounds">
+<rect height="45.1829" width="212.365" x="0" y="0"/>
+</clipPath>
+<clipPath id="TextBounds_2">
+<rect height="18" width="244.861" x="0" y="0"/>
+</clipPath>
+<clipPath id="TextBounds_3">
+<rect height="22.4197" width="277.846" x="0" y="0"/>
+</clipPath>
+</defs>
+<clipPath id="ArtboardFrame">
+<rect height="91" width="301.569" x="0" y="0"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="레이어-2">
+<g opacity="1">
+<text clip-path="url(#TextBounds)" fill="#000000" font-family="Korail-Round-Gothic-Bold" font-size="38.4" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 96.2792 12.1186)" x="0" y="0">
+<tspan textLength="192" x="0" y="33">인창피엠티</tspan>
+</text>
+<text clip-path="url(#TextBounds_2)" fill="#000000" font-family="Korail-Round-Gothic-Bold" font-size="16.584" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 97.329 60.457)" x="0" y="0">
+<tspan textLength="237.632" x="0" y="14">INCHANG PUMP MOTOR TECH</tspan>
+</text>
+<text clip-path="url(#TextBounds_3)" fill="#000000" font-family="Korail-Round-Gothic-Bold" font-size="16.584" opacity="0" stroke="none" text-anchor="start" transform="matrix(0.67 0 0 1 99.9963 60.7416)" x="0" y="0">
+<tspan textLength="241.861" x="0" y="14">IN CHANG PUMP MOTOR TECH</tspan>
+</text>
+<g opacity="1">
+<path d="M81.83 45.25C81.83 65.1764 65.6764 81.33 45.75 81.33C25.8236 81.33 9.66999 65.1764 9.67 45.25C9.67 25.3236 25.8236 9.17 45.75 9.17C65.6764 9.17 81.83 25.3236 81.83 45.25Z" fill="none" opacity="1" stroke="#182172" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+<path d="M64.07 45.33L45.67 45.33L81.67 9.42L64.07 45.33Z" fill="#c41021" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M45.67 63.76L45.67 45.35L81.58 81.35L45.67 63.76Z" fill="#182172" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M45.65 26.89L45.65 45.29L9.73 9.29L45.65 26.89Z" fill="#182172" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M27.22 45.31L45.63 45.31L9.63 81.23L27.22 45.31Z" fill="#182172" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M63.58 45.21C63.58 55.1511 55.5211 63.21 45.58 63.21C35.6389 63.21 27.58 55.1511 27.58 45.21C27.58 35.2689 35.6389 27.21 45.58 27.21C55.5211 27.21 63.58 35.2689 63.58 45.21Z" fill="none" opacity="1" stroke="#ffffff" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+</g>
+</g>
+</g>
+</svg>

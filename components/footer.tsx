@@ -71,27 +71,33 @@ export default function Footer() {
   ];
   return (
     <>
-      <footer aria-label="Site Footer" className="bg-white dark:bg-gray-900">
+      <footer aria-label="Site Footer" className="bg-white dark:bg-neutral-900">
         <div className="max-w-screen-xl px-4 py-16 mx-auto space-y-8 sm:px-6 lg:space-y-16 lg:px-8">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>
               <div className="text-teal-600 dark:text-teal-300">
                 <Image
-                  src="/imgs/logo.png"
-                  alt="Logo"
-                  width={72}
-                  height={16}
-                  className="h-8"
+                  src="/imgs/logo-h-black-302x91.png"
+                  alt="home"
+                  width={160}
+                  height={50}
+                  className="border-0 dark:hidden"
+                />
+                <Image
+                  src="/imgs/logo-h-all-white-302x91.png"
+                  alt="home"
+                  width={160}
+                  height={50}
+                  className="border-0 hidden dark:inline-block"
                 />
               </div>
 
               <p className="max-w-xs mt-4 text-gray-500 dark:text-gray-400">
-                TEL.
-                <a href="tel:032-574-0479">032-574-0479</a> <br />
+                <a href="tel:032-574-0479">TEL. 032-574-0479</a> <br />
                 FAX. 032-574-0489
                 <br />
-                e-mail.
-                <a href="mailto:epump@hanmail.net">epump@hanmail.net</a> <br />
+                <a href="mailto:epump@hanmail.net">e-mail. epump@hanmail.net</a>
+                <br />
                 인천광역시 서구 가좌로 54 (주안 BT센터 2차 411-413호)
               </p>
 
@@ -214,7 +220,7 @@ export default function Footer() {
               </ul>
             </div>
 
-            <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-5">
+            <div className="grid grid-cols-2 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-5">
               {data.map((col, idx, arr) => {
                 return (
                   <div key={idx}>

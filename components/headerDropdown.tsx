@@ -29,9 +29,8 @@ export default function HeaderDropdown(props: HeaderDropdownProps) {
             {sites.map((site, idx, sites) => (
               <Menu.Item>
                 {({ active }) => (
-                  <div className="w-full">
+                  <div className="w-full" key={idx}>
                     <Link
-                      key={idx}
                       className={`${
                         active ? "bg-blue-500" : ""
                       } py-2 mx-auto w-full rounded-md inline-block text-center`}

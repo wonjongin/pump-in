@@ -59,7 +59,11 @@ export default function Header() {
               <nav aria-label="Site Nav">
                 <ul className="flex flex-wrap items-center gap-6 text-sm md:text-base">
                   {data.map((col, idx, cols) => (
-                    <HeaderDropdown displayName={col.name} sites={col.sites} />
+                    <HeaderDropdown
+                      key={idx}
+                      displayName={col.name}
+                      sites={col.sites}
+                    />
                   ))}
                 </ul>
               </nav>

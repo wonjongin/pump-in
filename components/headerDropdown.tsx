@@ -27,9 +27,9 @@ export default function HeaderDropdown(props: HeaderDropdownProps) {
         <Menu.Items className="mt-2 focus:outline-none absolute origin-top-right divide-y -right-9 w-32 divide-gray-100 rounded-md bg-blue-300 dark:bg-blue-800 z-10">
           <div>
             {sites.map((site, idx, sites) => (
-              <Menu.Item>
+              <Menu.Item key={idx}>
                 {({ active }) => (
-                  <div className="w-full" key={idx}>
+                  <div className="w-full">
                     <Link
                       className={`${
                         active ? "bg-blue-500" : ""

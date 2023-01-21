@@ -1,7 +1,11 @@
 import Footer from "./footer";
 import Header from "./header";
 
-export default function Template({ children }) {
+interface TemplateProps {
+  children: any;
+}
+
+export default function Template({ children }: TemplateProps) {
   return (
     <>
       <div>

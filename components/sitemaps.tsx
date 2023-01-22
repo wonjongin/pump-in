@@ -7,6 +7,10 @@ export const data = [
         path: "/introductions/aboutus",
       },
       {
+        name: "연혁",
+        path: "/ready",
+      },
+      {
         name: "오시는길",
         path: "/introductions/location",
       },
@@ -26,10 +30,14 @@ export const data = [
     ],
   },
   {
-    name: "기술자료",
+    name: "자료",
     sites: [
       {
         name: "설치사례",
+        path: "/ready",
+      },
+      {
+        name: "채용",
         path: "/ready",
       },
     ],

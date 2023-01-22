@@ -96,7 +96,7 @@ export default function Header() {
                                 <li key={idx}>
                                   <Link
                                     href={row.path}
-                                    className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                                    className="text-gray-700 transition hover:opacity-75 dark:text-gray-200 pl-5"
                                   >
                                     {row.name}
                                   </Link>

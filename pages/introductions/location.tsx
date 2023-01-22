@@ -7,11 +7,10 @@ export default function Location() {
     <>
       <Template>
         <div className="w-screen">
-          <Map />
           <br />
           <h1 className="text-center text-4xl">오시는 길</h1>
           <br />
-          <a href="http://kko.to/F1J-TRjbxM">
+          {/* <a href="http://kko.to/F1J-TRjbxM">
             <Image
               src="/imgs/map.png"
               alt="map"
@@ -19,7 +18,11 @@ export default function Location() {
               height={500}
               className="mx-auto"
             />
-          </a>
+          </a> */}
+          <div className="mx-auto">
+            <Map />
+          </div>
+
           <p className="text-center">
             인천광역시 서구 가좌로 54 (주안 BT센터 2차 411-413호)
           </p>

@@ -37,7 +37,9 @@ export default function Footer() {
                 <br />
                 <a href="mailto:epump@hanmail.net">e-mail. epump@hanmail.net</a>
                 <br />
-                인천광역시 서구 가좌로 54 (주안 BT센터 2차 411-413호)
+                <a href="http://kko.to/F1J-TRjbxM">
+                  인천광역시 서구 가좌로 54 (주안 BT센터 2차 411-413호)
+                </a>
               </p>
 
               <ul className="flex gap-6 mt-8">

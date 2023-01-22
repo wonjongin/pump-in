@@ -10,7 +10,7 @@ export default function Template({ children }: TemplateProps) {
     <>
       <div>
         <Header />
-        <main>{children}</main>
+        <main className="dark:bg-neutral-900">{children}</main>
         <Footer />
       </div>
     </>

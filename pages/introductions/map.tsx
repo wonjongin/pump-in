@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Map() {
   return (
     <div>
@@ -15,13 +17,15 @@ export default function Map() {
           <a
             href="https://map.kakao.com/?urlX=429755.0&urlY=1105258.0&itemId=814683449&q=%EC%A3%BC%EC%95%88BT%EC%84%BC%ED%84%B02%EC%B0%A8&srcid=814683449&map_type=TYPE_MAP&from=roughmap"
             target="_blank"
+            rel="noreferrer"
           >
-            <img
+            <Image
               className="map"
+              alt="map"
               src="http://t1.daumcdn.net/roughmap/imgmap/49010912c924dfe5b08f3e740915d7591d4df0f2847faf423efe2d656bf1a01e"
               style={{ border: "1px solid #ccc" }}
-              width="638px"
-              height="478px"
+              width={638}
+              height={478}
             />
           </a>
         </div>
@@ -37,9 +41,10 @@ export default function Map() {
           <a
             href="https://map.kakao.com"
             target="_blank"
+            rel="noreferrer"
             style={{ float: "left" }}
           >
-            <img
+            <Image
               src="//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/logo_kakaomap.png"
               alt="카카오맵"
               style={{ display: "block", width: 72, height: 16 }}
@@ -57,6 +62,7 @@ export default function Map() {
           >
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://map.kakao.com/?from=roughmap&srcid=814683449&confirmid=814683449&q=%EC%A3%BC%EC%95%88BT%EC%84%BC%ED%84%B02%EC%B0%A8&rv=on"
               style={{
                 float: "left",
@@ -84,6 +90,7 @@ export default function Map() {
             />
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://map.kakao.com/?from=roughmap&eName=%EC%A3%BC%EC%95%88BT%EC%84%BC%ED%84%B02%EC%B0%A8&eX=429755.0&eY=1105258.0"
               style={{
                 float: "left",
@@ -111,6 +118,7 @@ export default function Map() {
             />
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://map.kakao.com?map_type=TYPE_MAP&from=roughmap&srcid=814683449&itemId=814683449&q=%EC%A3%BC%EC%95%88BT%EC%84%BC%ED%84%B02%EC%B0%A8&urlX=429755.0&urlY=1105258.0"
               style={{
                 float: "left",

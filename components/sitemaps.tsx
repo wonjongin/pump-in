@@ -8,7 +8,7 @@ export const data = [
       },
       {
         name: "연혁",
-        path: "/ready",
+        path: "/introductions/history",
       },
       {
         name: "오시는길",

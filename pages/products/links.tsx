@@ -1,3 +1,4 @@
+import InnerHeader from "@/components/innerHeader";
 import Template from "@/components/template";
 import Link from "next/link";
 import Links from "./links.json";
@@ -7,6 +8,7 @@ export default function AboutUs() {
   return (
     <>
       <Template>
+        <InnerHeader parentName="취급제품사" childName="일반펌프" />
         <div className="mx-auto">
           {Links.map((link, idx, arr) => {
             return (

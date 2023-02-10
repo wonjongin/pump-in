@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 75.17 75.17"
+   version="1.1"
+   id="svg20"
+   sodipodi:docname="자산 5.svg"
+   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview22"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="3.9724415"
+     inkscape:cx="11.202179"
+     inkscape:cy="42.794841"
+     inkscape:window-width="1309"
+     inkscape:window-height="620"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="레이어_1-2" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1,.cls-4{fill:none;stroke-width:3px;}.cls-1{stroke:#182172;}.cls-2{fill:#c41021;}.cls-3{fill:#182172;}.cls-4{stroke:#fff;}</style>
+  </defs>
+  <g
+     id="레이어_2"
+     data-name="레이어 2">
+    <g
+       id="레이어_1-2"
+       data-name="레이어 1">
+      <path
+         class="cls-1"
+         d="M73.67,37.58A36.09,36.09,0,1,1,37.58,1.5,36.09,36.09,0,0,1,73.67,37.58Z"
+         id="path6"
+         style="stroke:#ffffff;stroke-opacity:1" />
+      <polygon
+         class="cls-2"
+         points="55.91 37.67 37.5 37.67 73.5 1.75 55.91 37.67"
+         id="polygon8" />
+      <polygon
+         class="cls-3"
+         points="37.5 56.09 37.5 37.69 73.42 73.69 37.5 56.09"
+         id="polygon10"
+         style="fill:#ffffff" />
+      <polygon
+         class="cls-3"
+         points="37.48 19.22 37.48 37.63 1.56 1.63 37.48 19.22"
+         id="polygon12"
+         style="fill:#ffffff" />
+      <polygon
+         class="cls-3"
+         points="19.05 37.65 37.46 37.65 1.46 73.56 19.05 37.65"
+         id="polygon14"
+         style="fill:#ffffff" />
+      <path
+         class="cls-4"
+         d="M55.42,37.54a18,18,0,1,1-18-18A18,18,0,0,1,55.42,37.54Z"
+         id="path16" />
+    </g>
+  </g>
+</svg>

@@ -1,3 +1,4 @@
+import InnerHeader from "@/components/innerHeader";
 import Template from "@/components/template";
 import { CSSProperties } from "react";
 
@@ -24,25 +25,26 @@ export default function AboutUs() {
   return (
     <>
       <Template>
+        <InnerHeader parentName="회사소개" childName="회사소개" />
         <div>
-        <p className="text-justify max-w-md text-white/90 md:mt-6 md:block md:text-lg md:leading-relaxed md:text-center">
-                저희 홈페이지를 방문하신 고객 여러분 진심으로 환영하며 귀사의
-                무궁한 발전과 번영을 기원합니다. 저희 인창피엠티는 산업용 펌프,
-                모터를 취급, 생산하는 회사로서 급수부스터펌프시스템을 비롯하여
-                소방, 순환, 오.배수, 볼텍스, 진공 펌프 등을 취급 판매 및
-                수리하고 있습니다. 항상 고객의 입장에서 고객의 마음으로 최선을
-                다하겠습니다. 기술자문을 필요로 하시는 분들은 어려워 마시고
-                연락을 주시면 언제든지 신속하게 답변해 드리겠습니다. 고객의
-                만족을 위하여 최선을 다하는 인창피엠티가 되겠습니다.
-                <br />
-                <br />
-                <div className="text-right">
-                  <span className="text-2xl font-bold font-[KorailRoundGothicBold]">
-                    인창피엠티
-                  </span>{" "}
-                  임직원 일동
-                </div>
-              </p>
+          <p className="text-justify max-w-md text-white/90 md:mt-6 md:block md:text-lg md:leading-relaxed md:text-center mx-auto">
+            저희 홈페이지를 방문하신 고객 여러분 진심으로 환영하며 귀사의 무궁한
+            발전과 번영을 기원합니다. 저희 인창피엠티는 산업용 펌프, 모터를
+            취급, 생산하는 회사로서 급수부스터펌프시스템을 비롯하여 소방, 순환,
+            오.배수, 볼텍스, 진공 펌프 등을 취급 판매 및 수리하고 있습니다. 항상
+            고객의 입장에서 고객의 마음으로 최선을 다하겠습니다. 기술자문을
+            필요로 하시는 분들은 어려워 마시고 연락을 주시면 언제든지 신속하게
+            답변해 드리겠습니다. 고객의 만족을 위하여 최선을 다하는 인창피엠티가
+            되겠습니다.
+            <br />
+            <br />
+            <div className="text-right">
+              <span className="text-2xl font-bold font-[KorailRoundGothicBold]">
+                인창피엠티
+              </span>{" "}
+              임직원 일동
+            </div>
+          </p>
           <table className="mx-auto border border-black dark:border-white border-collapse my-5">
             <thead>
               <tr>

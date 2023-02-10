@@ -1,3 +1,4 @@
+import InnerHeader from "@/components/innerHeader";
 import Template from "@/components/template";
 import Image from "next/image";
 import Map from "./map";
@@ -6,13 +7,14 @@ export default function Location() {
   return (
     <>
       <Template>
+        <InnerHeader parentName="회사소개" childName="연혁" />
         <div className="w-screen">
           <br />
           <h1 className="text-center text-4xl">오시는 길</h1>
           <br />
           <a href="http://kko.to/F1J-TRjbxM">
             <Image
-              src="/imgs/map.png"
+              src="/logo/map.png"
               alt="map"
               width={500}
               height={500}

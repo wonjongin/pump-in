@@ -16,14 +16,14 @@ export default function Footer() {
             <div>
               <div className="text-teal-600 dark:text-teal-300">
                 <Image
-                  src="/imgs/logo-h-black-302x91.png"
+                  src="/logo/logo-h-black-302x91.png"
                   alt="home"
                   width={160}
                   height={50}
                   className="border-0 dark:hidden"
                 />
                 <Image
-                  src="/imgs/logo-h-all-white-302x91.png"
+                  src="/logo/logo-h-all-white-302x91.png"
                   alt="home"
                   width={160}
                   height={50}

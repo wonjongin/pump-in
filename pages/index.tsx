@@ -14,11 +14,18 @@ export default function Home() {
         <section className="overflow-hidden bg-[url(https://unsplash.com/photos/LJnRzbDFdI4/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8M3x8cHVtcHxlbnwwfHx8fDE2NzA4NDk1NTM&force=true&w=2400)] bg-cover bg-center bg-no-repeat">
           <div className="backdrop-blur-sm backdrop-brightness-75 bg-black/25 p-8 md:p-12 lg:px-16 lg:py-24">
             <div className="max-w-lg md:max-w-none text-center sm:text-left">
-              <h2 className="text-2xl font-bold text-white sm:text-3xl md:text-5xl md:leading-normal mb-8">
+              <h2 className="text-2xl font-bold text-white sm:text-3xl md:text-4xl md:leading-normal mb-8">
                 인창피엠티 홈페이지에 오신걸 환영합니다!
               </h2>
 
-             <p>펌프모터 전문기업 인창피엠티 입니다.</p>
+              <p className="text-2xl ">
+                안녕하세요! 저희는 <br />
+                펌프모터 전문기업 <br />
+                <span className="font-[KorailRoundGothicBold] font-bold">
+                  인창피엠티
+                </span>{" "}
+                입니다.
+              </p>
 
               {sites.map((site, idx, arr) => {
                 return (

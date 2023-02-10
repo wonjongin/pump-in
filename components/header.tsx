@@ -25,28 +25,28 @@ export default function Header() {
                 <span className="sr-only">Home</span>
 
                 <Image
-                  src="/imgs/logo-h-black-302x91.png"
+                  src="/logo/logo-h-black-302x91.png"
                   alt="home"
                   width={200}
                   height={50}
                   className="border-0 dark:hidden"
                 />
                 <Image
-                  src="/imgs/logo-h-all-white-302x91.png"
+                  src="/logo/logo-h-all-white-302x91.png"
                   alt="home"
                   width={200}
                   height={50}
                   className="border-0 hidden dark:inline-block"
                 />
                 {/* <Image
-                  src="/imgs/logo-only-nobg.png"
+                  src="/logo/logo-only-nobg.png"
                   alt="home"
                   width={50}
                   height={50}
                   className="border-0 md:hidden dark:hidden"
                 />
                 <Image
-                  src="/imgs/logo-only-gray-nobg-256x256.png"
+                  src="/logo/logo-only-gray-nobg-256x256.png"
                   alt="home"
                   width={50}
                   height={50}

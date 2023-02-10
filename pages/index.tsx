@@ -17,15 +17,16 @@ export default function Home() {
               <h2 className="text-2xl font-bold text-white sm:text-3xl md:text-4xl md:leading-normal mb-8">
                 인창피엠티 홈페이지에 오신걸 환영합니다!
               </h2>
-
-              <p className="text-2xl ">
-                안녕하세요! 저희는 <br />
-                펌프모터 전문기업 <br />
-                <span className="font-[KorailRoundGothicBold] font-bold">
-                  인창피엠티
-                </span>{" "}
-                입니다.
-              </p>
+              <div>
+                <p className="text-2xl">
+                  안녕하십니까! 저희는 <br />
+                  펌프모터 전문기업 <br />
+                  <span className="font-[KorailRoundGothicBold] font-bold">
+                    인창피엠티
+                  </span>{" "}
+                  입니다.
+                </p>
+              </div>
 
               {sites.map((site, idx, arr) => {
                 return (

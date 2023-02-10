@@ -9,7 +9,7 @@ export default function AboutUs() {
     <>
       <Template>
         <InnerHeader parentName="취급제품사" childName="일반펌프" />
-        <div className="mx-auto">
+        <div className="mx-auto px-12">
           {Links.map((link, idx, arr) => {
             return (
               <div key={idx} className="mt-4 sm:mt-8 md:inline-block md:mr-4">

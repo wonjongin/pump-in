@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 interface InnerHeaderProps {
   parentName: string;
   childName: string;

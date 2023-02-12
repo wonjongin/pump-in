@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { data } from "./sitemaps";
+import { data } from "../data/sitemaps";
 import {
   PhoneIcon,
   EnvelopeIcon,

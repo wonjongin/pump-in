@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { slide as HamburgerMenu } from "react-burger-menu";
 import HeaderDropdown from "./headerDropdown";
-import { data } from "./sitemaps";
+import { data } from "../data/sitemaps";
 
 export default function Header() {
   const menus = [

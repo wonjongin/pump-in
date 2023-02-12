@@ -10,7 +10,7 @@ export default function Home() {
   ];
   return (
     <div className={styles.container}>
-      <Template>
+      <Template noInnerHeader noDescription>
         <section className="overflow-hidden bg-[url(https://unsplash.com/photos/LJnRzbDFdI4/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8M3x8cHVtcHxlbnwwfHx8fDE2NzA4NDk1NTM&force=true&w=2400)] bg-cover bg-center bg-no-repeat">
           <div className="backdrop-blur-sm backdrop-brightness-75 bg-black/25 p-8 md:p-12 lg:px-16 lg:py-24">
             <div className="max-w-lg md:max-w-none text-center sm:text-left">

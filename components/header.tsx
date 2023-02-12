@@ -77,6 +77,7 @@ export default function Header() {
                 // crossButtonClassName=""
                 crossClassName="w-9 h-9"
                 menuClassName="bg-white dark:bg-neutral-900"
+                overlayClassName="bg-transparent"
               >
                 <div className="grid grid-cols-2 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-5">
                   {data.map((col, idx, arr) => {
@@ -88,7 +89,7 @@ export default function Header() {
 
                         <nav
                           aria-label={`Footer Navigation - ${col.name}`}
-                          className="mt-6"
+                          className="mt-4"
                         >
                           <ul className="space-y-4 text-sm">
                             {col.sites.map((row, idx, arr) => {

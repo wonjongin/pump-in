@@ -5,6 +5,7 @@ import {
   PhoneIcon,
   EnvelopeIcon,
   GlobeAltIcon,
+  MapPinIcon,
 } from "@heroicons/react/24/solid";
 
 export default function Footer() {
@@ -87,6 +88,24 @@ export default function Footer() {
                     <span className="sr-only">Twitter</span>
 
                     <GlobeAltIcon
+                      className="w-6 h-6"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    />
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="http://kko.to/F1J-TRjbxM"
+                    rel="noreferrer"
+                    target="_blank"
+                    className="text-gray-700 transition hover:opacity-75"
+                  >
+                    <span className="sr-only">Twitter</span>
+
+                    <MapPinIcon
                       className="w-6 h-6"
                       fill="currentColor"
                       viewBox="0 0 24 24"

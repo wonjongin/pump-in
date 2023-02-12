@@ -19,7 +19,7 @@ export default function InnerHeader(props: InnerHeaderProps) {
         className={`overflow-hidden bg-cover bg-center bg-no-repeat h-60`}
       >
         <div className="backdrop-blur-sm backdrop-brightness-75 bg-black/25">
-          <h1 className="text-center text-3xl font-[KorailRoundGothicBold] font-bold py-28">
+          <h1 className="text-center text-3xl font-[KorailRoundGothicBold] font-bold py-28 text-white">
             {parentName}
           </h1>
         </div>

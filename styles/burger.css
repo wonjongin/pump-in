@@ -50,7 +50,8 @@
 
 .bm-overlay {
   top: 0;
-  background: rgba(0, 0, 0, 0.3);
+  /* background: rgba(0, 0, 0, 0.3); */
+  background: rgba(0, 0, 0, 0) !important;
 }
 /* styling next link component so that will be a column list of links*/
 .bm-item-list a {

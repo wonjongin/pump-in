@@ -1,3 +1,4 @@
+import Description from "@/components/description";
 import InnerHeader from "@/components/innerHeader";
 import Template from "@/components/template";
 import { CSSProperties } from "react";
@@ -26,8 +27,8 @@ export default function AboutUs() {
     <>
       <Template>
         <InnerHeader parentName="회사소개" childName="회사소개" />
-        <div>
-          <p className="text-justify max-w-md text-white/90 md:mt-6 md:block md:text-lg md:leading-relaxed md:text-center mx-auto">
+        <Description>
+          <p className="text-justify max-w-md dark:text-white/90 md:mt-6 md:block md:text-lg md:leading-relaxed md:text-center mx-auto">
             저희 홈페이지를 방문하신 고객 여러분 진심으로 환영하며 귀사의 무궁한
             발전과 번영을 기원합니다. 저희 인창피엠티는 산업용 펌프, 모터를
             취급, 생산하는 회사로서 급수부스터펌프시스템을 비롯하여 소방, 순환,
@@ -44,6 +45,8 @@ export default function AboutUs() {
               </span>{" "}
               임직원 일동
             </div>
+            <br />
+            <br />
           </p>
           <table className="mx-auto border border-black dark:border-white border-collapse my-5">
             <thead>
@@ -69,7 +72,7 @@ export default function AboutUs() {
               })}
             </tbody>
           </table>
-        </div>
+        </Description>
       </Template>
     </>
   );

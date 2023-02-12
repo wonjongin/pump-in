@@ -2,11 +2,12 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 import Template from "@/components/template";
 import InnerHeader from "@/components/innerHeader";
+import Description from "@/components/description";
 
 export default function History() {
   const histories = [
     {
-      at: "2009.??.??",
+      at: "2013.07.01",
       desc: "인창피엠티 개업",
     },
     {
@@ -18,7 +19,7 @@ export default function History() {
     <>
       <Template>
         <InnerHeader parentName="회사소개" childName="연혁" />
-        <div className="mx-auto px-24">
+        <Description>
           <ul>
             {histories.map((history, idx, histories) => (
               <li key={idx} className="text-lg font-[KorailRoundGothic]">
@@ -26,7 +27,7 @@ export default function History() {
               </li>
             ))}
           </ul>
-        </div>
+        </Description>
       </Template>
     </>
   );

@@ -33,7 +33,7 @@ export const data = [
     name: "자료",
     sites: [
       {
-        name: "설치사례",
+        name: "시공사례",
         path: "/ready",
       },
       {

@@ -18,7 +18,7 @@ export default function Home() {
                 인창피엠티 홈페이지에 오신걸 환영합니다!
               </h2>
               <div>
-                <p className="text-2xl">
+                <p className="text-2xl text-white">
                   안녕하십니까! 저희는 <br />
                   펌프모터 전문기업 <br />
                   <span className="font-[KorailRoundGothicBold] font-bold">

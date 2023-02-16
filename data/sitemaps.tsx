@@ -45,7 +45,7 @@ export const data = [
     sites: [
       {
         name: "시공사례",
-        path: "/ready",
+        path: "/references/examples",
       },
       {
         name: "카달로그",
@@ -75,14 +75,14 @@ export const data = [
       },
     ],
   },
-  {
-    name: "외부링크",
-    path: "links",
-    sites: [
-      {
-        name: "취급제품사",
-        path: "/products/links",
-      },
-    ],
-  },
+  // {
+  //   name: "외부링크",
+  //   path: "links",
+  //   sites: [
+  //     {
+  //       name: "산업용펌프",
+  //       path: "/products/links",
+  //     },
+  //   ],
+  // },
 ];

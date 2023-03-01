@@ -293,10 +293,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:*":
+  version: 18.14.2
+  resolution: "@types/node@npm:18.14.2"
+  checksum: 53c07e721f6ae33de71306f6a0b75dae6066a4f55bd5484c93bd59ff25f0c5f004ceafeef509a4d0cb9e24a247efc34d50489bcc1b05a53ecc68e2fc088e65cb
+  languageName: node
+  linkType: hard
+
 "@types/node@npm:18.11.12":
   version: 18.11.12
   resolution: "@types/node@npm:18.11.12"
   checksum: 6c67f0998a9ad8ef0f357fcc0d72841c579576c746cfbac67c9d0229e1cd219d3b96297c2caaeaa4084ba7e9ad112b412e64af4066e522faa0be4ef9ad0a613a
+  languageName: node
+  linkType: hard
+
+"@types/nodemailer@npm:^6.4.7":
+  version: 6.4.7
+  resolution: "@types/nodemailer@npm:6.4.7"
+  dependencies:
+    "@types/node": "*"
+  checksum: dc2a33a89135e04a5bea4921e8645e8453b90e3c3b05f0646f05071c5951ab697ea49ea1e503a690f04cb0a6abfc54967325c5a4036356793cfbb64ba64fb141
   languageName: node
   linkType: hard
 
@@ -2861,6 +2877,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nodemailer@npm:^6.9.1":
+  version: 6.9.1
+  resolution: "nodemailer@npm:6.9.1"
+  checksum: b1b9670afc170b4454665abae3fc9acd7e781adb9f579d1c2cd991bf75c647ebe345593f8a057e48d7bf9e4c9a9218869f87db8fb7171c614f557000ab654572
+  languageName: node
+  linkType: hard
+
 "nopt@npm:^6.0.0":
   version: 6.0.0
   resolution: "nopt@npm:6.0.0"
@@ -3267,6 +3290,7 @@ __metadata:
     "@heroicons/react": ^2.0.13
     "@tailwindcss/forms": ^0.5.3
     "@types/node": 18.11.12
+    "@types/nodemailer": ^6.4.7
     "@types/react": 18.0.26
     "@types/react-burger-menu": ^2.8.3
     "@types/react-dom": 18.0.9
@@ -3275,6 +3299,7 @@ __metadata:
     eslint: 8.29.0
     eslint-config-next: 13.0.6
     next: 13.0.6
+    nodemailer: ^6.9.1
     postcss: ^8.4.20
     react: 18.2.0
     react-burger-menu: ^3.0.9

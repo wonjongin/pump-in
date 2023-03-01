@@ -6,7 +6,7 @@ export default function Home() {
   const sites = [
     { name: "회사소개", path: "/introductions/aboutus" },
     { name: "오시는 길", path: "/introductions/location" },
-    { name: "취급제품사", path: "/products/links" },
+    { name: "펌프사", path: "/products/links" },
   ];
   return (
     <div className={styles.container}>

@@ -4,6 +4,7 @@ import Footer from "./footer";
 import Header from "./header";
 import InnerHeader from "./innerHeader";
 import { data } from "../data/sitemaps";
+import Head from "next/head";
 
 interface TemplateProps {
   children: any;
@@ -32,6 +33,9 @@ export default function Template({
   return (
     <>
       <div>
+        <Head>
+          <title>인창피엠티</title>
+        </Head>
         <Header />
         {noInnerHeader ? (
           ""

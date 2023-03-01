@@ -32,6 +32,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@heroicons/react", "virtual:dbb9229da45bba9f65ed0748df05dace432360d7d5fa02e348dcd02b7dfafc05472d8683ef5236dea8ad7702cf88ba8b566888049d3fa8e67e4c4a3618a5f83f#npm:2.0.13"],\
             ["@tailwindcss/forms", "virtual:dbb9229da45bba9f65ed0748df05dace432360d7d5fa02e348dcd02b7dfafc05472d8683ef5236dea8ad7702cf88ba8b566888049d3fa8e67e4c4a3618a5f83f#npm:0.5.3"],\
             ["@types/node", "npm:18.11.12"],\
+            ["@types/nodemailer", "npm:6.4.7"],\
             ["@types/react", "npm:18.0.26"],\
             ["@types/react-burger-menu", "npm:2.8.3"],\
             ["@types/react-dom", "npm:18.0.9"],\
@@ -40,6 +41,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.29.0"],\
             ["eslint-config-next", "virtual:dbb9229da45bba9f65ed0748df05dace432360d7d5fa02e348dcd02b7dfafc05472d8683ef5236dea8ad7702cf88ba8b566888049d3fa8e67e4c4a3618a5f83f#npm:13.0.6"],\
             ["next", "virtual:dbb9229da45bba9f65ed0748df05dace432360d7d5fa02e348dcd02b7dfafc05472d8683ef5236dea8ad7702cf88ba8b566888049d3fa8e67e4c4a3618a5f83f#npm:13.0.6"],\
+            ["nodemailer", "npm:6.9.1"],\
             ["postcss", "npm:8.4.21"],\
             ["react", "npm:18.2.0"],\
             ["react-burger-menu", "virtual:dbb9229da45bba9f65ed0748df05dace432360d7d5fa02e348dcd02b7dfafc05472d8683ef5236dea8ad7702cf88ba8b566888049d3fa8e67e4c4a3618a5f83f#npm:3.0.9"],\
@@ -436,6 +438,23 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-node-npm-18.11.12-3e4f66dc1e-6c67f0998a.zip/node_modules/@types/node/",\
           "packageDependencies": [\
             ["@types/node", "npm:18.11.12"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:18.14.2", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-18.14.2-ba0496d563-53c07e721f.zip/node_modules/@types/node/",\
+          "packageDependencies": [\
+            ["@types/node", "npm:18.14.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/nodemailer", [\
+        ["npm:6.4.7", {\
+          "packageLocation": "./.yarn/cache/@types-nodemailer-npm-6.4.7-8618621ba9-dc2a33a891.zip/node_modules/@types/nodemailer/",\
+          "packageDependencies": [\
+            ["@types/nodemailer", "npm:6.4.7"],\
+            ["@types/node", "npm:18.14.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3447,6 +3466,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["nodemailer", [\
+        ["npm:6.9.1", {\
+          "packageLocation": "./.yarn/cache/nodemailer-npm-6.9.1-5159f56f86-b1b9670afc.zip/node_modules/nodemailer/",\
+          "packageDependencies": [\
+            ["nodemailer", "npm:6.9.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["nopt", [\
         ["npm:6.0.0", {\
           "packageLocation": "./.yarn/cache/nopt-npm-6.0.0-5ea8050815-82149371f8.zip/node_modules/nopt/",\
@@ -3972,6 +4000,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@heroicons/react", "virtual:dbb9229da45bba9f65ed0748df05dace432360d7d5fa02e348dcd02b7dfafc05472d8683ef5236dea8ad7702cf88ba8b566888049d3fa8e67e4c4a3618a5f83f#npm:2.0.13"],\
             ["@tailwindcss/forms", "virtual:dbb9229da45bba9f65ed0748df05dace432360d7d5fa02e348dcd02b7dfafc05472d8683ef5236dea8ad7702cf88ba8b566888049d3fa8e67e4c4a3618a5f83f#npm:0.5.3"],\
             ["@types/node", "npm:18.11.12"],\
+            ["@types/nodemailer", "npm:6.4.7"],\
             ["@types/react", "npm:18.0.26"],\
             ["@types/react-burger-menu", "npm:2.8.3"],\
             ["@types/react-dom", "npm:18.0.9"],\
@@ -3980,6 +4009,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.29.0"],\
             ["eslint-config-next", "virtual:dbb9229da45bba9f65ed0748df05dace432360d7d5fa02e348dcd02b7dfafc05472d8683ef5236dea8ad7702cf88ba8b566888049d3fa8e67e4c4a3618a5f83f#npm:13.0.6"],\
             ["next", "virtual:dbb9229da45bba9f65ed0748df05dace432360d7d5fa02e348dcd02b7dfafc05472d8683ef5236dea8ad7702cf88ba8b566888049d3fa8e67e4c4a3618a5f83f#npm:13.0.6"],\
+            ["nodemailer", "npm:6.9.1"],\
             ["postcss", "npm:8.4.21"],\
             ["react", "npm:18.2.0"],\
             ["react-burger-menu", "virtual:dbb9229da45bba9f65ed0748df05dace432360d7d5fa02e348dcd02b7dfafc05472d8683ef5236dea8ad7702cf88ba8b566888049d3fa8e67e4c4a3618a5f83f#npm:3.0.9"],\

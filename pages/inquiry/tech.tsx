@@ -5,7 +5,7 @@ export default function AS() {
   return (
     <>
       <Template>
-        <Inquiry title="A/S" />
+        <Inquiry title="기술문의" />
       </Template>
     </>
   );

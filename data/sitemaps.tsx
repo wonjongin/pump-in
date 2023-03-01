@@ -13,7 +13,7 @@ export const data = [
       },
       {
         name: "조직도",
-        path: "/ready",
+        path: "/introductions/org",
       },
       {
         name: "오시는길",
@@ -31,7 +31,7 @@ export const data = [
       },
       {
         name: "생활용펌프",
-        path: "/ready",
+        path: "/products/links_gajung",
       },
       {
         name: "수중펌프",
@@ -53,7 +53,7 @@ export const data = [
       },
       {
         name: "채용",
-        path: "/ready",
+        path: "/references/career",
       },
     ],
   },
@@ -63,15 +63,15 @@ export const data = [
     sites: [
       {
         name: "A/S 문의",
-        path: "/ready",
-      },
-      {
-        name: "전화 상담",
-        path: "/ready",
+        path: "/inquiry/as",
       },
       {
         name: "기술 문의",
-        path: "/ready",
+        path: "/inquiry/tech",
+      },
+      {
+        name: "전화 상담",
+        path: "/inquiry/call",
       },
     ],
   },
